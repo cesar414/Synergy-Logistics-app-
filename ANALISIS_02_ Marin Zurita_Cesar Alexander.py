@@ -58,7 +58,7 @@ def menu1():
     top_rutas=rutas.sort_values('flujo por 10 mil',ascending=0)
     #imprimo el dataframe de manera ordenada para mejorar la presentacion 
     with pd.option_context('display.max_rows', None, 'display.max_columns', None): 
-        print(top_rutas.head(10))
+        print(top_rutas.head(15))
 #Valor total de importaciones y exportaciones
 def menu2():
     #Medio de transporte utilizado
